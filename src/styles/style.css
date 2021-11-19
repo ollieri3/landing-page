@@ -1,90 +1,97 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
- 
-html, body {
-    height: 100%;
-    max-height: 100%;
-    overflow: hidden;
+
+html,
+body {
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 body {
-    color: #fff;
-    font-family: Avenir, Nunito, Arial, Helvetica, sans-serif;
-    background: linear-gradient(#1976d2, #9c27b0); 
+  color: #fff;
+  font-family: Avenir, Nunito, Arial, Helvetica, sans-serif;
+  background: linear-gradient(#1976d2, #9c27b0);
 }
 
 section {
-    max-width: 85%;
-    margin: auto;
+  max-width: 85%;
+  margin: auto;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    margin: 0 15px;
-    transition: border 0.3s;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 15px;
+  transition: border 0.3s;
+  border-bottom: 2px solid transparent;
 }
 
-a:hover, a:focus {
-    border-bottom: 2px solid #fff;
+a:hover,
+a:focus {
+  border-bottom: 2px solid #fff;
 }
 
 .underline {
-    box-shadow: inset 0 -5px 0 0 #9c00ae6b;
-    line-height: 140%;
+  box-shadow: inset 0 -5px 0 0 #9c00ae6b;
+  line-height: 140%;
 }
 
 .introduction {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15vh;
 }
 
 .introduction__title {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .introduction__supporting {
-    margin-top: 10px;
-    margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .headshot {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 .headshot__image {
-    height: 100px;
-    border-radius: 5px;
-    width: auto;
+  height: 100px;
+  border-radius: 5px;
+  width: 100px;
+  object-fit: cover;
 }
 
 .section-rule {
-    max-width: 70%;
-    margin: 2em auto;
-    border: 1px solid #bdbdbd;
+  max-width: 70%;
+  margin: 2em auto;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background: #bdbdbd;
 }
 
 .social-links {
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 600px) {
+  body {
+    font-size: 1.3em;
+  }
 
-    body {
-        font-size: 1.3em;
-    }
+  .introduction {
+    margin-top: 25vh;
+  }
 
-    .introduction {
-        margin-top: 25vh;
-    }
-
-    section {
-        max-width: 520px;
-    }
+  section {
+    max-width: 520px;
+  }
 }

@@ -12,7 +12,36 @@ body {
 body {
   color: #fff;
   font-family: Avenir, Nunito, Arial, Helvetica, sans-serif;
-  background: linear-gradient(#1976d2, #9c27b0);
+
+  /*
+    Generated using a Gradient generator built by Josh W Comeau
+    https://www.joshwcomeau.com/gradient-generator/
+  */
+  background: linear-gradient(
+    30deg,
+    hsl(210deg 79% 46%) 0%,
+    hsl(214deg 78% 46%) 2%,
+    hsl(217deg 78% 46%) 5%,
+    hsl(221deg 77% 45%) 8%,
+    hsl(225deg 76% 45%) 11%,
+    hsl(229deg 75% 45%) 15%,
+    hsl(233deg 75% 45%) 18%,
+    hsl(237deg 74% 45%) 22%,
+    hsl(241deg 73% 45%) 27%,
+    hsl(245deg 73% 44%) 31%,
+    hsl(249deg 72% 44%) 36%,
+    hsl(252deg 71% 44%) 41%,
+    hsl(256deg 70% 44%) 47%,
+    hsl(260deg 70% 44%) 52%,
+    hsl(264deg 68% 44%) 58%,
+    hsl(268deg 68% 43%) 65%,
+    hsl(272deg 67% 43%) 71%,
+    hsl(276deg 66% 43%) 77%,
+    hsl(280deg 66% 43%) 83%,
+    hsl(283deg 65% 43%) 89%,
+    hsl(287deg 65% 42%) 95%,
+    hsl(291deg 64% 42%) 100%
+  );
 }
 
 section {
